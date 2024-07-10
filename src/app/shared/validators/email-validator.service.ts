@@ -33,8 +33,6 @@ export class EmailValidatorService implements AsyncValidator{
       delay(3000)
     );
     return httpCallObservable;
-
-
   }
 
 }
